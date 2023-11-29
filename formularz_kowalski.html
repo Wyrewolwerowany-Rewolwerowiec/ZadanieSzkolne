@@ -2,10 +2,104 @@
     <html lang="pl-PL">
         <head>
             <meta charset="utf-8">
-            <title>Formularz Kowalskiego</title>
+            <title>Formularz o grach komputerowych</title>
         </head>
-        <body>
-            <p>Tutaj powinien być formularz ale też go nie ma :(</p><br>
+        <body bgcolor=beige>
+            <h1>Formularz o grach komputerowych</h1>
+			<form enctype="text/plain" action="mailto:ktostam@ktostam.gov?subject=formularz" method=post>
+				<hr size=5 width=100% align=left color=black>
+				<a>Ile czasu spędzasz grając w gry?</a><br>
+				<p>
+					<input type="radio" name="mniejnizdwiegodziny" value="aa">
+					Mniej niż dwie godziny
+					<input type="radio" name="od2do4godzin" value="ab">
+					Od dwóch do czterech godzin
+					<br>
+					<input type="radio" name="od4do6godzin" value="ac">
+					Od czterech do sześciu godzin
+					<input type="radio" name="powyzej6godzin" value="ad">
+					Więcej niż sześć godzin
+				</p>
+				<hr size=5 width=100% align=left color=black>
+				<a>Jakie rodzaje gier lubisz?</a>
+				<p>
+					<input type=checkbox name="singleplayer" value="ba">
+					Jednoosobowe
+					<input type=checkbox name="multiplayer" value="bb">
+					Wieloosobowe
+					<input type=checkbox name="coop" value="bc">
+					Kooperacyjne
+				</p>
+				<hr size=5 width=100% align=left color=black>
+				<a>Wybierz swoje ulubione gatunki gier komputerowych</a>
+				<p>
+					<input type=checkbox name="fps" value="ca">
+					FPS
+					<input type=checkbox name="tps" value="cb">
+					TPS
+					<input type=checkbox name="rpg" value="cc">
+					RPG
+					<br>
+					<input type=checkbox name="strategia" value="cd">
+					Strategiczne
+					<input type=checkbox name="wyscigowki" value="ce">
+					Wyścigowe
+					<input type=checkbox name="muzyczne" value="cf">
+					Muzyczne
+					<br>
+					<input type=checkbox name="platformowki" value="cg">
+					Platformówki
+					<input type=checkbox name="nawalanki" value="ch">
+					Bijatyki
+					<input type=checkbox name="skradanki" value="ci">
+					Skradanki
+				</p>
+				<hr size=5 width=100% align=left color=black>
+				<a>Na jakim sprzęcie grasz w gry?</a>
+				<p>
+					<input type=checkbox name="komp" value="da">
+					Komputer
+					<input type=checkbox name="konsola" value="db">
+					Konsola
+					<input type=checkbox name="konsolaprzenosna" value="dc">
+					Konsola przenośna
+				</p>
+				<hr size=5 width=100% align=left color=black>
+				<a>Na jakim systemie operacyjnym grasz w gry?</a>
+				<p>
+					<input type=radio name="windows" value="ea">
+					Windows
+					<input type=radio name="linux" value="eb">
+					Linux
+					<input type=radio name="niegramnapc" value="ec">
+					Nie gram na PC
+				</p>
+				<hr size=5 width=100% align=left color=black>
+				<a>Na jakich platformach do gier posiadasz konta?</a>
+				<p>
+					<input type=checkbox name="steam" value="fa">
+					Steam
+					<input type=checkbox name="gog" value="fb">
+					GOG
+					<input type=checkbox name="battlenet" value="fc">
+					Battle.net
+					<br>
+					<input type=checkbox name="origin" value="fd">
+					Origin
+					<input type=checkbox name="live" value="fe">
+					Xbox Live
+					<input type=checkbox name="psn" value="ff">
+					PSN
+				</p>
+				<hr size=5 width=100% align=left color=black>
+				<p>
+					<select name="plec">
+						<option value=nic>-Wybierz-</option>
+						<option value=facet>Mężczyzna</option>
+						<option value=kobieta>Kobieta</option>
+					</select>
+				</p>
+				
             <a href="index.html">Wróć!</a>
         </body>
     </html>
